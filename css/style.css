@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Viga&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
 *,
+
 *::before,
+
 *::after {
   font-family: "Poppins", sans-serif;
   -webkit-box-sizing: border-box;
@@ -73,6 +77,7 @@ body {
 }
 
 .navbarKu .navbar-brand h1,
+
 .navbarKu .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #000;
 }
@@ -215,6 +220,7 @@ body {
 }
 
 .scroll .navbar-brand h1,
+
 .scroll .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #000;
 }
@@ -383,12 +389,12 @@ body {
 
 .ig {
   background: -webkit-gradient(
-    linear,
-    right top,
-    left bottom,
-    from(#5056c5),
-    color-stop(#ee4b51),
-    to(#f7b04d)
+  linear,
+  right top,
+  left bottom,
+  from(#5056c5),
+  color-stop(#ee4b51),
+  to(#f7b04d)
   );
   background: linear-gradient(to bottom left, #5056c5, #ee4b51, #f7b04d);
 }
@@ -772,12 +778,14 @@ body {
 }
 
 .shareArtikel p,
+
 .penulis p {
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .shareArtikel img,
+
 .penulis img {
   width: 60%;
   height: 200px;
@@ -785,6 +793,7 @@ body {
 }
 
 .shareArtikel h4,
+
 .penulis h4 {
   font-weight: 600;
 }
@@ -820,10 +829,15 @@ body {
 }
 
 .mainDetailArtikel .row .col-md-8 h1,
+
 .mainDetailArtikel .row .col-md-8 h2,
+
 .mainDetailArtikel .row .col-md-8 h3,
+
 .mainDetailArtikel .row .col-md-8 h4,
+
 .mainDetailArtikel .row .col-md-8 h5,
+
 .mainDetailArtikel .row .col-md-8 h6 {
   font-weight: 600;
 }
@@ -1166,45 +1180,38 @@ iframe {
   .perFooterContactUs p {
     font-size: 0.9em;
   }
-
-
   /* Tampilan HP */
-@media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     .logo-tengah img {
-        width: 70%;
+      width: 70%;
     }
-
-}
-
-
-
-
-/* CONTACT FOOTER */
-.footerContactUs .perFooterContactUs {
+  }
+  /* CONTACT FOOTER */
+  .footerContactUs .perFooterContactUs {
     display: flex;
     align-items: flex-start;
     gap: 15px;
     margin-bottom: 18px;
-}
-
-.footerContactUs .perFooterContactUs i {
+  }
+  .footerContactUs .perFooterContactUs i {
     width: 22px;
     min-width: 22px;
     margin-top: 4px;
-}
-
-.footerContactUs .perFooterContactUs p {
+  }
+  .footerContactUs .perFooterContactUs p {
     margin: 0;
     color: white;
+  }
 }
-}
-
-
 
 /* =========================================================
-   PENYEGARAN DESAIN MTS MANBAUL'ULUM
-   Lapisan tambahan: mempertahankan struktur dan fitur lama.
-   ========================================================= */
+
+PENYEGARAN DESAIN MTS MANBAUL'ULUM
+
+Lapisan tambahan: mempertahankan struktur dan fitur lama.
+
+========================================================= */
+
 :root {
   --mts-navy: #102a56;
   --mts-blue: #164e9b;
@@ -1215,186 +1222,271 @@ iframe {
   --mts-surface: #ffffff;
   --mts-bg: #f5f8fc;
 }
+
 html { scroll-behavior: smooth; }
+
 body {
   color: var(--mts-ink);
   background: var(--mts-bg);
   line-height: 1.7;
   overflow-x: hidden;
 }
+
 img { max-width: 100%; }
+
 a { transition: color .25s ease, background .25s ease, transform .25s ease; }
+
 .container { max-width: 1160px; }
+
 .navbar {
   padding: 13px max(4%, calc((100% - 1160px)/2));
   min-height: 78px;
   z-index: 1000;
   transition: all .3s ease;
 }
+
 .navbarKu, .navbar.scroll {
   background: rgba(255,255,255,.97) !important;
   box-shadow: 0 8px 28px rgba(16,42,86,.10);
   backdrop-filter: blur(12px);
 }
+
 .navbar .navbar-brand img {
   width: 49px; height: 49px; object-fit: contain;
   border-radius: 12px; transform: none;
 }
+
 .navbar .navbar-brand h1 {
   color: var(--mts-navy); font-size: 1.12rem;
   letter-spacing: .2px; line-height: 1.2; margin: 0 0 0 11px;
 }
+
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link,
+
 .navbarKu .navbar-collapse .navbar-nav .nav-item .nav-link,
+
 .navbar.scroll .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: var(--mts-navy); font-size: .91rem; font-weight: 600;
   margin-left: 10px; padding: 10px 12px; border-radius: 9px;
 }
+
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+
 .navbarKu .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: var(--mts-blue); background: var(--mts-blue-light);
 }
+
 .navbar .navbar-toggler { border: 1px solid #d9e2f0; border-radius: 9px; }
+
 .dropdown-menu {
   border: 0; border-radius: 13px; padding: 9px;
   box-shadow: 0 15px 35px rgba(16,42,86,.15);
 }
+
 .dropdown-item { border-radius: 8px; padding: 9px 13px; }
+
 .slideshow {
   height: min(760px, 88vh); min-height: 520px;
   background: var(--mts-navy); overflow: hidden;
 }
+
 .slideshow::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(90deg, rgba(7,24,52,.78), rgba(7,24,52,.24) 72%, rgba(7,24,52,.10));
   pointer-events: none;
 }
+
 .slideshow img { object-fit: cover; }
+
 .slideshow .container {
   z-index: 2; left: max(5%, calc((100% - 1120px)/2));
   bottom: 15%; width: min(900px, 90%);
 }
+
 .slideshow .container .mainText .garis {
   width: 5px; height: 94px; background: var(--mts-gold);
 }
+
 .slideshow .container .mainText h3 {
   font-size: clamp(1rem, 2vw, 1.4rem); font-weight: 500;
 }
+
 .slideshow .container .mainText h1 {
   font-size: clamp(2.1rem, 5vw, 4.2rem);
   line-height: 1.12; font-weight: 800; margin: 18px 0 24px 30px;
   text-shadow: 0 4px 20px rgba(0,0,0,.25);
 }
+
 .slideshow .container h3 { font-size: 1rem; max-width: 620px; line-height: 1.8; }
+
 .title { margin: 88px auto 32px; }
+
 .title h1, .title h2, .jurusan h2, .containerArtikelHome h2 {
   color: var(--mts-navy); font-weight: 800; letter-spacing: .2px;
   line-height: 1.25;
 }
+
 .title h1 { font-size: clamp(1.7rem, 3vw, 2.5rem); }
+
 .title h2 { font-size: clamp(1.5rem, 2.6vw, 2.1rem); }
+
 .title p { color: var(--mts-muted); max-width: 760px; margin: 14px auto; }
+
 .sambutan { padding: 54px 20px; }
+
 .sambutan h1 { color: var(--mts-navy); font-weight: 800; }
+
 .sambutan p { color: var(--mts-muted); max-width: 800px; }
+
 .kepsek {
   background-color: #eaf1fb; background-size: cover;
   padding: 55px 0; border-radius: 22px; overflow: hidden;
 }
+
 .kepsek .container { align-items: center; gap: 34px; }
+
 .kepsek .container img {
   object-fit: cover; border: 6px solid #fff;
   box-shadow: 0 14px 35px rgba(16,42,86,.15);
 }
+
 .kepsek .container .visiMisi { gap: 28px; }
+
 .kepsek .container .visiMisi .visi { margin: 0 20px 0 25px; }
+
 .kepsek .container .visiMisi h5 { color: var(--mts-blue); font-weight: 700; }
+
 .kepsek .container .visiMisi h3 { color: var(--mts-navy); font-weight: 800; }
+
 .kepsek .container .visiMisi p { color: #475467; line-height: 1.8; }
+
 .jurusan {
   background: #fff; padding: 70px 0; margin-top: 65px;
 }
+
 .jurusan h2, .containerArtikelHome h2 { font-size: clamp(1.55rem, 2.5vw, 2.2rem); }
+
 .jurusan .boxJurusan { margin-top: 35px; gap: 14px; }
+
 .jurusan .boxJurusan .perBox {
   border-radius: 17px; box-shadow: 0 12px 28px rgba(16,42,86,.12);
   margin: 8px; height: 225px;
 }
+
 .jurusan .boxJurusan .perBox img { transition: transform .5s ease; }
+
 .jurusan .boxJurusan .perBox h3 {
   height: auto; min-height: 48px; bottom: 0; padding: 13px 16px;
   background: linear-gradient(90deg, rgba(13,48,97,.96), rgba(22,78,155,.88));
   font-size: 1rem; font-weight: 700;
 }
+
 .perGaleri { gap: 12px; padding: 10px 0; }
+
 .perGaleri img {
   width: 260px; height: 180px; object-fit: cover; margin: 0;
   border-radius: 14px; box-shadow: 0 8px 22px rgba(16,42,86,.12);
   transition: transform .3s ease, box-shadow .3s ease;
 }
+
 .perGaleri img:hover { transform: translateY(-5px); box-shadow: 0 15px 28px rgba(16,42,86,.18); }
+
 .titleArtikel { padding: 120px 0 25px; }
+
 .titleArtikel h1 {
   color: var(--mts-navy); font-size: clamp(1.45rem, 3vw, 2rem);
   font-weight: 800; line-height: 1.35; margin-bottom: 12px;
 }
+
 .artikel .perArtikel {
   background: #fff; border: 1px solid #e8edf5; border-radius: 16px;
   padding: 16px; margin-bottom: 18px; gap: 18px;
   box-shadow: 0 7px 22px rgba(16,42,86,.05);
   transition: transform .25s ease, box-shadow .25s ease;
 }
+
 .artikel .perArtikel:hover { transform: translateY(-3px); box-shadow: 0 13px 28px rgba(16,42,86,.10); }
+
 .artikel .perArtikel img {
   width: 270px; min-width: 220px; height: 175px;
   object-fit: cover; margin: 0; border-radius: 12px;
 }
+
 .artikel .perArtikel h3 { color: var(--mts-navy); font-size: 1.25rem; line-height: 1.45; }
+
 .artikel .perArtikel p { color: var(--mts-muted); }
+
 .containerArtikelHome { padding-top: 65px; }
+
 .containerArtikelHome .artikelHome { gap: 20px; }
+
 .containerArtikelHome .artikelHome .perArtikelHome {
   background: #fff; border: 1px solid #e8edf5; border-radius: 17px;
   overflow: hidden; width: 340px; margin: 0; padding-bottom: 18px;
   box-shadow: 0 8px 25px rgba(16,42,86,.06);
 }
+
 .containerArtikelHome .artikelHome .perArtikelHome img {
   height: 215px; border-radius: 0; object-fit: cover; margin-bottom: 15px;
 }
+
 .containerArtikelHome .artikelHome .perArtikelHome h3,
+
 .containerArtikelHome .artikelHome .perArtikelHome p,
+
 .containerArtikelHome .artikelHome .perArtikelHome small { margin-left: 17px; margin-right: 17px; }
+
 .containerArtikelHome .artikelHome .perArtikelHome h3 { color: var(--mts-navy); font-size: 1.08rem; line-height: 1.5; }
+
 .containerArtikelHome .artikelHome .perArtikelHome p { color: var(--mts-muted); }
+
 .ekstrakulikuler .perEkstrakulikuler {
   border-radius: 16px; box-shadow: 0 12px 28px rgba(16,42,86,.13);
 }
+
 .footer {
   background: linear-gradient(135deg, #0c2347, #163f78);
   padding-top: 52px; padding-bottom: 35px; margin-top: 90px;
 }
+
 .footer h4 { font-weight: 800; letter-spacing: 1px; }
+
 .footer p, .footer a { color: rgba(255,255,255,.82); }
+
 .footer a:hover { color: #fff; text-decoration: none; }
+
 .footerContactUs .perFooterContactUs { align-items: flex-start; gap: 13px; margin: 12px 0; }
+
 .footerContactUs .perFooterContactUs i { width: 22px; min-width: 22px; color: var(--mts-gold) !important; }
+
 .footerContactUs .perFooterContactUs p { margin: 0; transform: none; line-height: 1.65; }
+
 .footerCopyright { background: #091a35; min-height: 58px; height: auto; padding: 16px; }
+
 .footerCopyright p { color: rgba(255,255,255,.75); text-align: center; }
+
 .iconBox { border-radius: 12px 0 0 12px; overflow: hidden; box-shadow: 0 5px 18px rgba(0,0,0,.15); }
+
 .iconBox .perIconBox { width: 45px; height: 43px; }
+
 .btn, button, input, textarea, select { border-radius: 9px; }
+
 .btn-primary { background: var(--mts-blue); border-color: var(--mts-blue); }
+
 .btn-primary:hover { background: var(--mts-navy); border-color: var(--mts-navy); }
+
 input.form-control, textarea.form-control, select.form-control {
   min-height: 44px; border: 1px solid #d8e1ed; box-shadow: none;
 }
+
 input.form-control:focus, textarea.form-control:focus, select.form-control:focus {
   border-color: #6b9cdb; box-shadow: 0 0 0 3px rgba(22,78,155,.10);
 }
+
 .card, .videoKegiatan, .kontak, .formPendaftaran {
   border-radius: 16px;
 }
+
 @media (max-width: 991px) {
   .navbar { background: rgba(255,255,255,.98) !important; }
   .navbar .navbar-brand h1 { color: var(--mts-navy) !important; }
@@ -1405,6 +1497,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   .kepsek .container .visiMisi { flex-direction: column; }
   .kepsek .container .visiMisi .visi { margin: 0 0 20px; }
 }
+
 @media (max-width: 767px) {
   .slideshow { height: 68vh; min-height: 450px; }
   .slideshow .container { left: 5%; bottom: 12%; }
@@ -1420,6 +1513,7 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   .footer { margin-top: 65px; }
   .footerAbout { text-align: left; }
 }
+
 @media (max-width: 480px) {
   .navbar { padding: 10px 14px; }
   .navbar .navbar-brand img { width: 39px; height: 39px; }
@@ -1438,3 +1532,11 @@ input.form-control:focus, textarea.form-control:focus, select.form-control:focus
   .iconBox { top: auto; bottom: 12px; right: 10px; transform: none; width: auto; border-radius: 12px; }
   .iconBox .perIconBox { width: 40px; height: 40px; }
 }
+
+.videoKegiatan video {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
